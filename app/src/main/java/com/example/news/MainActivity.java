@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onItemClick(AdapterView<?> parent, View view,
                                             int position, long id) {
                         Intent i = new Intent(MainActivity.this, DetailsActivity.class);
-                        i.putExtra("url", dataList.get(+position).get(KEY_URL));
+                        i.putExtra("url", dataList.get(position).get(KEY_URL));
                         startActivity(i);
                     }
                 });

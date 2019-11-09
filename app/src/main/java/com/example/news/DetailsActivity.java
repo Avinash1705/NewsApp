@@ -16,7 +16,7 @@ public class DetailsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_details2);
+        setContentView(R.layout.activity_details);
         Intent intent = getIntent();
         url = intent.getStringExtra("url");
         loader = findViewById(R.id.loader);
